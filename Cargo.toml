@@ -9,6 +9,7 @@ edition = "2021"
 anyhow = "1.0.65"
 clap = {version = "4.0.17", features = ["env", "derive"]}
 indicatif = "0.17.1"
+owo-colors = "3.5.0"
 reqwest = "0.11.12"
 snafu = "0.7.3"
 strum = {version ="0.24.1", features = ["derive"]}
