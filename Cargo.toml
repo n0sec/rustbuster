@@ -8,8 +8,6 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.65"
 clap = {version = "4.0.17", features = ["env", "derive"]}
-colored = "2.0.0"
-colorful = "0.2.1"
 indicatif = "0.17.1"
 reqwest = "0.11.12"
 snafu = "0.7.3"
