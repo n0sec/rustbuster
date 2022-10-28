@@ -1,12 +1,9 @@
-use colorful::Color;
-use colorful::Colorful;
+use owo_colors::OwoColorize;
 use reqwest::Client;
 use reqwest::Url;
 use tokio::fs::File;
 use tokio::io::AsyncBufReadExt;
 use tokio::io::BufReader;
-
-extern crate colorful;
 
 pub fn print_header() {
     let s = r#"
@@ -17,7 +14,7 @@ pub fn print_header() {
 /_/ |_|\__,_/____/\__/_.___/\__,_/____/\__/\___/_/     
                                                        
 "#
-    .gradient(Color::Orange1);
+    .red();
     println!("{}", s);
 }
 
